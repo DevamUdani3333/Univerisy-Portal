@@ -13,13 +13,13 @@ const UploadResources = () => {
       })
       .then((response) => {
         console.log("Submitted successfully:", response.data);
-        setResourceName("");
-        setResponse(response.data);
+        setResourceName("")
+        setResponse(response.data)
       })
       .catch((error) => {
-        console.error("Submission error:", error);
-      });
-  };
+        console.error("Submission error:", error)
+      })
+  }
 
   return (
     <div className="p-8">
